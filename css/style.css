@@ -41,6 +41,10 @@ body {
     opacity: 0.4;
 }
 
+.w-50 {
+    width: 50%;
+}
+
 /* buttons */
 .btn {
     display: inline-block;
@@ -61,6 +65,10 @@ body {
     background-color: #7cbb02;
     border: 1px solid #7cbb02;
 }
+.btn-big {
+    padding: 10px 20px;
+    font-size: 14px;
+}
 
 .btn-blue:hover {
     background-color: white;
@@ -77,6 +85,10 @@ body {
 header {
     height: 600px;
     background-color: #0c325a;
+    background-image: url(../img/background-header.png);
+    background-position: 115% 105%;
+    background-size: 70%;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -106,4 +118,19 @@ nav {
 
 .jumbotron {
     height: 520px;
+    position: relative;
+}
+.jumbotron-title {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 600px;
+    color: white;
+    letter-spacing: 2px;
 }

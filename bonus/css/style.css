@@ -1,0 +1,138 @@
+/* common */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-50 {
+    width: 47%;
+}
+
+.col-central {
+    width: 60%;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+
+}
+/* buttons */
+.section-1-btn {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #7cbb02;
+    letter-spacing: 2px;
+}
+
+.section-white {
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.section-blue {
+    background-color: #0C3259;
+    padding: 50px 0;
+}
+
+/* section-1 */
+.section-1 {
+    padding: 30px 0;
+}
+
+.section-1 img {
+    display: block;
+    margin: 0 3%;
+    padding: 30px;
+}
+
+.section-1-col {
+    width: 40%;
+    padding: 30px 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.section-1-col > p,
+.section-1-col > span {
+    font-size: 12px;
+    color: grey;
+}
+.section-1-col > p {
+    margin: 30px 0;
+}
+
+.section-1-col-btn > span {
+    padding: 5px 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+    opacity: 0.7;
+}
+
+/* section-2 */
+.section-2 {
+    margin: auto;
+    text-align: center;
+}
+
+.col-central img {
+    width: 50%;
+}
+.col-central h2 {
+    padding: 20px 0;
+}
+.col-central h2 span {
+    color: #7cbb02;
+}
+.col-central p:not(.subtitle) {
+    font-size: 12px;
+    color: grey;
+    padding: 10px 0;
+}
+.col-central a {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.col-central-text {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.subtitle {
+    font-size: 10px;
+    color: grey;
+}

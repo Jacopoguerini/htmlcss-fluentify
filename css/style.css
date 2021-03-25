@@ -127,9 +127,22 @@ hr {
     color: white;
 }
 
+.help-btn {
+    position: fixed;
+    right: 15%;
+    bottom: 1%;
+    z-index: 1000;
+}
+
+.help-btn:hover {
+    background-color: rgba(124, 187, 2);
+    transform: scale(1.5);
+    border-radius: 5px;
+}
+
 /* header */
 .page-header {
-    height: 80vh;
+    height: 600px;
     background-color: #0c325a;
     background-image: url(../img/background-header.png);
     background-position: 115% 105%;
@@ -209,10 +222,54 @@ nav {
 
 /* main section 2 */
 .main-section-2 {
-    height: 500px;
+    width: 70%;
+    margin: 15px auto;
 }
-
 .main-section-2 img {
     display: block;
-    width: 100%;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.col-50-title {
+    width: 70%;
+    text-align: left;
+}
+.col-50-title > h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.col-50-title > p {
+    margin-bottom: 15px;
+}
+.col-50-title > a {
+    font-size: 11px;
+}
+
+/* footer */
+footer {
+    background-color: #d3d3d3;
+    height: 150px;
+    line-height: 150px;
+}
+
+.footer-title {
+    text-align: left;
+}
+
+.footer-nav {
+    float: right;
+    text-align: right;
+    color: grey;
+}
+
+.select {
+    border-bottom: 1px solid grey;
+}
+
+.select > i {
+    margin-left: 60px;
+    text-align: right;
+    display: inline-block;
 }
